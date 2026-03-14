@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="株式会社C.R.Mは、大阪を拠点に、業務改善DX、AI活用、CIO代行、コンテンツ制作、BizDevOps、M&A仲介を行う会社です。現場理解を起点に、企業の経営課題を領域横断で整理し、提案だけでなく実装まで支援します。">
+  <title>株式会社C.R.M | CROSS DOMAIN RESOLUTION</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Montserrat (英字) と Noto Sans JP (日本語) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Ambient Glow Backgrounds -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- Loading Screen -->
+  <div class="loader">
+    <div class="loader-content">
+      <div class="loader-logo gradient-text">C.R.M.</div>
+      <div class="loader-progress"><span id="progress-text">0</span>%</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo gradient-text">株式会社C.R.M</a>
+      <nav class="nav">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#issues" class="nav-link">Issues</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="#patterns" class="nav-link">Patterns</a>
+        <a href="#company" class="nav-link">Company</a>
+      </nav>
+      <a href="#contact" class="btn-primary flex-center gap-2">Contact <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+  </header>
+
+  <main id="smooth-wrapper">
+    <div id="smooth-content">
+      
+      <!-- 1. Hero Section -->
+      <section class="hero" id="home">
+        <!-- IT Tech Particles Background -->
+        <div id="particles-js" class="hero-bg-particles"></div>
+        <div class="hero-bg-overlay"></div>
+
+        <div class="hero-inner container relative z-10">
+          <div class="hero-copy">
+            <h1 class="hero-title reveal-text mt-lg">
+              課題は、<br>
+              <span class="gradient-text">複数の視点</span>から<br>
+              解決する。
+            </h1>
+            <p class="hero-sub reveal-text-delay">
+              業務改善DX、AI活用、CIO代行、制作・運用まで。<br>
+              株式会社C.R.Mは、現場理解を起点に経営課題を領域横断で解決します。
+            </p>
+          </div>
+          <div class="hero-bottom flex-between">
+            <h2 class="hero-bg-text">CROSS DOMAIN</h2>
+            <div class="scroll-indicator">
+              <span class="scroll-line"></span>
+              Scroll
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. About & Issues Section (Combined Flow) -->
+      <section class="section about-issues" id="about">
+        <div class="container">
+          <!-- About Intro -->
+          <div class="about-intro max-w-md fade-up mb-xl">
+            <p class="lead-text">
+              株式会社C.R.Mは、業務改善、DX・AI活用、CIO的な伴走、制作・運用支援を通じて、企業の経営課題を領域横断で整理し、実装まで支援する会社です。<br><br>
+              業務の仕組み化や情報整備といった<span class="text-cyan">守りの領域</span>だけでなく、WEB、映像、デザイン、SNS運用といった<span class="text-blue">攻めの領域</span>までを一体で捉え、部分最適ではない支援を行います。
+            </p>
+          </div>
+
+          <!-- Issues Grid -->
+          <div id="issues" class="mt-xl">
+            <div class="mb-lg">
+              <h2 class="section-title fade-up">こんな<span class="gradient-text">課題</span>に<br>向き合っています</h2>
+              <p class="sub-lead fade-up">企業の課題は、ひとつの領域だけで解決できるものではありません。</p>
+            </div>
+
+            <div class="bento-grid issue-grid">
+              <div class="glass-card issue-card fade-up">
+                <i class="fa-solid fa-people-arrows glow-icon"></i>
+                <p>業務が属人化していて、改善したいが整理しきれていない。</p>
+              </div>
+              <div class="glass-card issue-card fade-up" style="transition-delay: 0.1s;">
+                <i class="fa-solid fa-file-pen glow-icon"></i>
+                <p>アナログな運用が多く、確認や転記に手間がかかっている。</p>
+              </div>
+              <div class="glass-card issue-card fade-up" style="transition-delay: 0.2s;">
+                <i class="fa-solid fa-microchip glow-icon"></i>
+                <p>AIを活用したいが、どこから着手すべきかが見えていない。</p>
+              </div>
+              <div class="glass-card issue-card fade-up">
+                <i class="fa-solid fa-sitemap glow-icon"></i>
+                <p>社内にITやDXを横断的に見られる責任者がいない。</p>
+              </div>
+              <div class="glass-card issue-card fade-up" style="transition-delay: 0.1s;">
+                <i class="fa-solid fa-bullhorn glow-icon"></i>
+                <p>制作や発信を行っているが、経営課題とつながっていない。</p>
+              </div>
+              <div class="glass-card issue-card fade-up" style="transition-delay: 0.2s;">
+                <i class="fa-solid fa-gears glow-icon"></i>
+                <p>施策はあるが、実装や運用まで落とし込めていない。</p>
+              </div>
+            </div>
+            
+            <p class="mt-lg lead-text text-center fade-up">
+              こうした経営と現場のあいだにある複雑な課題に対して、<br>必要な視点と機能を組み合わせながら、解決まで伴走します。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Strengths Section -->
+      <section class="section strengths" id="strengths">
+        <div class="container container-narrow">
+          <h2 class="section-title text-center mb-xl fade-up">強み <span class="text-xs gradient-text">STRENGTHS</span></h2>
+          
+          <div class="timeline-list">
+            <div class="timeline-item glass-card fade-up">
+              <div class="timeline-num gradient-text">01</div>
+              <div class="timeline-content">
+                <h3>現場理解を起点に課題を捉えられること</h3>
+                <p>BtoB、BtoG、BtoC、店舗ビジネスなど、さまざまな業態に関わってきた経験をもとに、表面的な課題ではなく、本質的な要素（詰まり）を見つけます。</p>
+              </div>
+            </div>
+            <div class="timeline-item glass-card fade-up">
+              <div class="timeline-num gradient-text">02</div>
+              <div class="timeline-content">
+                <h3>守りと攻めを分けずに支援できること</h3>
+                <p>業務改善や情報整備といった守りの領域だけでなく、WEB、映像、デザインなどの発信（攻めの領域）までを一体で捉え、課題に応じて必要な支援を組み合わせます。</p>
+              </div>
+            </div>
+            <div class="timeline-item glass-card fade-up">
+              <div class="timeline-num gradient-text">03</div>
+              <div class="timeline-content">
+                <h3>領域横断で必要な打ち手を設計・実装できること</h3>
+                <p>経営、業務、IT、発信、運用といった複数の視点から整理し、ひとつの専門領域だけでは解けない課題に向き合います。提案で終わらず、実装・定着まで伴走します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Service Section -->
+      <section class="section service" id="service">
+        <div class="container">
+          <div class="mb-xl text-center">
+            <h2 class="section-title fade-up">事業紹介 <span class="text-xs gradient-text">SERVICES</span></h2>
+            <p class="sub-lead fade-up mx-auto max-w-md">
+              単なる業務改善でも、制作でもありません。<br>横断的に組み合わせ、現場で機能する形まで実装します。
+            </p>
+          </div>
+
+          <!-- Main Services: Bento Box Grid with Images -->
+          <div class="bento-grid service-bento">
+            
+            <!-- Service 1: DX -->
+            <div class="glass-card feature-card col-span-2 fade-up group">
+              <div class="card-bg-img">
+                <img src="images/service_dx.png" alt="DX Transformation">
+                <div class="overlay-gradient"></div>
+              </div>
+              <div class="card-content relative z-10">
+                <div class="icon-bulb"><i class="fa-solid fa-chart-line"></i></div>
+                <h3>業務改善DX</h3>
+                <p>日々のフローを整理し、現場で回る業務設計へ。単なるデジタル化ではなく、運用見据えた仕組みづくり。</p>
+                <ul class="check-list mt-4">
+                  <li><i class="fa-solid fa-check text-cyan"></i> 紙・Excel依存の整理</li>
+                  <li><i class="fa-solid fa-check text-cyan"></i> 確認工数・転記作業の削減</li>
+                  <li><i class="fa-solid fa-check text-cyan"></i> 運用ルールの再設計</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Service 2: AI -->
+            <div class="glass-card feature-card fade-up group" style="transition-delay: 0.1s;">
+              <div class="card-bg-img">
+                <img src="images/service_ai.png" alt="AI Neural Network">
+                <div class="overlay-gradient"></div>
+              </div>
+              <div class="card-content relative z-10 h-full flex flex-col justify-end">
+                <div class="icon-bulb"><i class="fa-solid fa-brain"></i></div>
+                <h3>AI活用</h3>
+                <p>実用性の高いAI活用を前提に、活用設計から導入・定着まで支援します。</p>
+              </div>
+            </div>
+
+            <!-- Service 3: Creative -->
+            <div class="glass-card feature-card col-span-full fade-up flex flex-col md:flex-row gap-8 items-stretch pt-12 pb-12">
+              <div class="card-content w-full md:w-5/12 flex flex-col justify-center">
+                <div class="icon-bulb"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <h3>制作・運用支援</h3>
+                <p>単発の制作物ではなく、課題や事業戦略と接続した発信設計を重視。HP制作、採用・営業情報設計からSNS運用まで、実装可能な体制を構築します。</p>
+              </div>
+              <div class="w-full md:w-7/12 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="inner-glass-card group">
+                  <div class="inner-icon text-blue"><i class="fa-solid fa-globe"></i></div>
+                  <div class="inner-text">
+                    <h4>WEB・HP制作</h4>
+                    <p>戦略に基づくサイト設計</p>
+                  </div>
+                </div>
+                <div class="inner-glass-card group" style="transition-delay: 0.1s;">
+                  <div class="inner-icon text-cyan"><i class="fa-solid fa-video"></i></div>
+                  <div class="inner-text">
+                    <h4>映像制作</h4>
+                    <p>直感的に伝わる動画</p>
+                  </div>
+                </div>
+                <div class="inner-glass-card group" style="transition-delay: 0.2s;">
+                  <div class="inner-icon text-blue"><i class="fa-solid fa-pen-nib"></i></div>
+                  <div class="inner-text">
+                    <h4>デザイン</h4>
+                    <p>一貫したブランド形成</p>
+                  </div>
+                </div>
+                <div class="inner-glass-card group" style="transition-delay: 0.3s;">
+                  <div class="inner-icon text-cyan"><i class="fa-solid fa-hashtag"></i></div>
+                  <div class="inner-text">
+                    <h4>SNS運用支援</h4>
+                    <p>ファンとつながる運用</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+          <!-- Sub Services -->
+          <div class="mt-xl">
+            <h3 class="text-center mb-8 fade-up text-xl font-bold tracking-widest text-light-gray">補助的な支援領域</h3>
+            <div class="bento-grid gap-6">
+              <div class="glass-card sub-card fade-up text-center border-t-glow">
+                <h4 class="text-gradient-cyan text-lg font-bold mb-4">CIO代行</h4>
+                <p class="text-sm">IT/DXの横断的責任者が不足する企業に対し、外部CIOとして経営課題とIT活用の橋渡しへ。</p>
+              </div>
+              <div class="glass-card sub-card fade-up text-center border-t-glow" style="transition-delay: 0.1s;">
+                <h4 class="text-gradient-cyan text-lg font-bold mb-4">BizDevOps</h4>
+                <p class="text-sm">事業開発と業務運用を分断せず、現場に接続し継続できる形まで整え、構想を実装へ落とし込みます。</p>
+              </div>
+              <div class="glass-card sub-card fade-up text-center border-t-glow" style="transition-delay: 0.2s;">
+                <h4 class="text-gradient-cyan text-lg font-bold mb-4">M&A仲介</h4>
+                <p class="text-sm">状況に応じ、経営全体の文脈を踏まえた意思決定・戦略的選択肢としてのM&Aを支援します。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Implementation Patterns -->
+      <section class="section patterns" id="patterns">
+        <div class="container relative z-10">
+          <div class="mb-xl">
+            <h2 class="section-title fade-up">実装パターン <span class="text-xs gradient-text">PATTERNS</span></h2>
+            <p class="sub-lead fade-up">
+              業務改善DX、AI活用、CIO代行、制作・運用まで。<br>
+              複数の視点から整理し落とし込んだ課題解決の事例。
+            </p>
+          </div>
+
+          <div class="timeline-list">
+            <div class="glass-card pattern-card fade-up group">
+              <span class="pattern-label badge-cyan">BtoB・製造業</span>
+              <div class="flex-between flex-wrap gap-4 mt-4">
+                <h3 class="pattern-title">アナログな受発注管理の<br>デジタル化とフロー再構築</h3>
+                <div class="pattern-result glass-pill-sm text-cyan"><i class="fa-solid fa-arrow-trend-down"></i> 確認工数削減 / 手戻り防止</div>
+              </div>
+            </div>
+            
+            <div class="glass-card pattern-card fade-up group">
+              <span class="pattern-label badge-blue">店舗ビジネス</span>
+              <div class="flex-between flex-wrap gap-4 mt-4">
+                <h3 class="pattern-title">属人化した顧客対応の<br>フォーマット化とAI活用</h3>
+                <div class="pattern-result glass-pill-sm text-blue"><i class="fa-solid fa-robot"></i> 対応品質均一化 / 属人化解消</div>
+              </div>
+            </div>
+            
+            <div class="glass-card pattern-card fade-up group">
+              <span class="pattern-label badge-cyan">BtoG・サービス業</span>
+              <div class="flex-between flex-wrap gap-4 mt-4">
+                <h3 class="pattern-title">複雑な情報共有の仕組み化と<br>採用サイトの連動設計</h3>
+                <div class="pattern-result glass-pill-sm text-cyan"><i class="fa-solid fa-users"></i> 情報伝達高速化 / 採用強化</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Company & Contact -->
+      <section class="section company-contact" id="company">
+        <div class="container">
+          <div class="grid md:grid-cols-2 gap-xl">
+            
+            <!-- Company Info -->
+            <div class="company-info fade-up">
+              <h2 class="section-title mb-8">会社について <span class="text-xs gradient-text">COMPANY</span></h2>
+              <div class="glass-card mb-8 pl-6 border-l-cyan">
+                <h3 class="text-lg font-bold mb-4">支援スタンス</h3>
+                <p class="text-sm opacity-80 mb-4">最初から答えを決めず、現場の本質的な詰まりを把握して支援を設計します。</p>
+                <p class="text-sm opacity-80">見栄えの良い提案ではなく、わかりやすく現場で継続・運用できる実装を重視しています。</p>
+              </div>
+              <table class="company-table w-full text-sm">
+                <tbody>
+                  <tr><th>称号</th><td>株式会社C.R.M</td></tr>
+                  <tr><th>代表取締役</th><td>車知也</td></tr>
+                  <tr><th>創立</th><td>2023年8月4日</td></tr>
+                  <tr><th>事業概要</th><td>コンサルティング、業務改善DX/AX、制作事業、他</td></tr>
+                  <tr><th>所在地</th><td>大阪府大阪市北区豊崎3丁目15-5 TKビル2F</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-area fade-up" id="contact">
+              <div class="glass-card form-wrapper relative overflow-hidden">
+                <div class="form-glow-bg"></div>
+                <h2 class="text-2xl font-bold mb-8 relative z-10">お問い合わせ <span class="text-xs text-blue ml-2">CONTACT</span></h2>
+                
+                <form class="contact-form relative z-10" action="#">
+                  <div class="form-group">
+                    <input type="text" id="company-name" placeholder="会社名（必須）" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="name" placeholder="氏名（必須）" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" id="email" placeholder="メールアドレス（必須）" required>
+                  </div>
+                  <div class="form-group">
+                    <textarea id="message" rows="4" placeholder="本文（必須）" required></textarea>
+                  </div>
+                  
+                  <div class="privacy-policy flex items-center gap-2 mb-8 text-sm">
+                    <input type="checkbox" id="privacy" class="custom-checkbox" required>
+                    <label for="privacy">プライバシーポリシーに同意する</label>
+                  </div>
+                  
+                  <button type="submit" class="btn-primary w-full flex-center gap-2">送信する <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer border-t border-glass mt-xl">
+        <div class="container py-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div class="footer-logo font-en font-bold text-xl gradient-text tracking-widest">C.R.M.</div>
+          <div class="footer-links flex gap-6 text-sm opacity-60">
+            <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+          </div>
+          <p class="copyright text-xs opacity-40 font-en">&copy; 2024 C.R.M Inc. All rights reserved.</p>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <!-- particles.js for Tech FV -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
