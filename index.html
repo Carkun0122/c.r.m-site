@@ -350,9 +350,26 @@
                     <textarea id="message" name="message" rows="4" placeholder="本文（必須）" required></textarea>
                   </div>
                   
-                  <div class="privacy-policy flex items-center gap-2 mb-8 text-sm">
-                    <input type="checkbox" id="privacy" class="custom-checkbox" required>
-                    <label for="privacy">プライバシーポリシーに同意する</label>
+                  <div class="form-group mb-6">
+                    <details class="privacy-accordion">
+                      <summary class="privacy-accordion-summary flex-between cursor-pointer text-sm font-bold p-3 rounded-lg border border-cyan/30 bg-dark-bg/50 backdrop-blur-md transition-colors hover:bg-cyan/10">
+                        プライバシーポリシーについて確認する
+                        <i class="fa-solid fa-chevron-down text-cyan transition-transform"></i>
+                      </summary>
+                      <div class="privacy-accordion-content p-4 mt-2 text-xs leading-relaxed text-gray-300 bg-dark-bg/80 border border-gray-700/50 rounded-lg max-h-40 overflow-y-auto">
+                        <p class="mb-2"><strong>1. 個人情報の収集・利用</strong></p>
+                        <p class="mb-4">株式会社C.R.M（以下「当社」）は、お問い合わせ対応やサービス提供に必要な範囲で、適法かつ公正な手段により個人情報を取得し、利用いたします。</p>
+                        <p class="mb-2"><strong>2. 第三者への開示・提供</strong></p>
+                        <p class="mb-4">当社は、法令に定める場合を除き、事前に本人の同意を得ることなく、個人情報を第三者に提供いたしません。</p>
+                        <p class="mb-2"><strong>3. 個人情報の管理</strong></p>
+                        <p>当社は、個人情報の正確性を保ち、これを安全に管理するとともに、個人情報の紛失、改ざん、漏洩などを防止するための適切な措置を講じます。</p>
+                      </div>
+                    </details>
+                  </div>
+                  
+                  <div class="privacy-policy flex items-center justify-center gap-2 mb-8 text-sm bg-cyan/5 p-3 rounded-lg border border-cyan/20">
+                    <input type="checkbox" id="privacy" class="custom-checkbox cursor-pointer" required>
+                    <label for="privacy" class="cursor-pointer select-none">個人情報の取扱いに同意する</label>
                   </div>
                   
                   <button type="submit" id="submitBtn" class="btn-primary w-full flex-center gap-2">
