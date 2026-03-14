@@ -181,8 +181,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const formMessage = document.getElementById('form-message');
 
   if (contactForm && formMessage) {
+    console.log("Contact form initialized:", contactForm);
     contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
+      console.log("Form submit event triggered!");
 
       // UIを送信中に変更
       if (submitBtn) submitBtn.disabled = true;
